@@ -1,0 +1,37 @@
+[gd_scene load_steps=3 format=3 uid="uid://d0t52g6c0iqw4"]
+
+[ext_resource type="Script" uid="uid://deq6sx1jhj71e" path="res://tip.gd" id="1_vk2th"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_vk2th"]
+content_margin_left = 5.0
+content_margin_top = 5.0
+content_margin_right = 5.0
+content_margin_bottom = 5.0
+bg_color = Color(0.244776, 0.244776, 0.244776, 0.545098)
+border_width_left = 2
+border_width_top = 2
+border_width_right = 2
+border_width_bottom = 2
+border_color = Color(0, 0, 0, 1)
+corner_radius_top_left = 5
+corner_radius_top_right = 5
+corner_radius_bottom_right = 5
+corner_radius_bottom_left = 5
+
+[node name="Tip" type="PanelContainer"]
+top_level = true
+offset_right = 300.0
+offset_bottom = 10.0
+theme_override_styles/panel = SubResource("StyleBoxFlat_vk2th")
+script = ExtResource("1_vk2th")
+
+[node name="Content" type="RichTextLabel" parent="."]
+unique_name_in_owner = true
+layout_mode = 2
+theme_override_font_sizes/italics_font_size = 20
+theme_override_font_sizes/normal_font_size = 20
+theme_override_font_sizes/bold_font_size = 20
+bbcode_enabled = true
+fit_content = true
+
+[connection signal="resized" from="." to="." method="_on_resized"]

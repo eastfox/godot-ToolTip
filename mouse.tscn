@@ -1,0 +1,127 @@
+[gd_scene load_steps=4 format=3 uid="uid://bsy5eksom1ke8"]
+
+[ext_resource type="PackedScene" uid="uid://b4kg4icj73e73" path="res://mouse_panel.tscn" id="1_tewyd"]
+[ext_resource type="Texture2D" uid="uid://bkrfmc3tb8b3e" path="res://icon.svg" id="2_tewyd"]
+[ext_resource type="PackedScene" uid="uid://bfhofdwiuh8k3" path="res://back.tscn" id="3_1jbr0"]
+
+[node name="mouse" type="Node2D"]
+
+[node name="Panel" parent="." instance=ExtResource("1_tewyd")]
+scale = Vector2(0.8, 0.8)
+content = "[img=40x40]res://icon.svg[/img][b]加粗[/b]
+[i]第一行斜体[/i]
+[color=red]第二行红色,内容很长很长很长很长很长很长很长很长很长很长[/color]
+[s]第三行删除线[/s]
+[u]第四行下划线[/u]
+第五行普通文本"
+texture = ExtResource("2_tewyd")
+
+[node name="Panel2" parent="." instance=ExtResource("1_tewyd")]
+offset_left = 520.0
+offset_right = 648.0
+scale = Vector2(0.8, 0.8)
+content = "[img=40x40]res://icon.svg[/img][b]加粗[/b]
+[i]第一行斜体[/i]
+[color=red]第二行红色,内容很长很长很长很长很长很长很长很长很长很长[/color]
+[s]第三行删除线[/s]
+[u]第四行下划线[/u]
+第五行普通文本"
+texture = ExtResource("2_tewyd")
+
+[node name="Panel3" parent="." instance=ExtResource("1_tewyd")]
+offset_left = 1096.0
+offset_right = 1224.0
+scale = Vector2(0.8, 0.8)
+content = "[img=40x40]res://icon.svg[/img][b]加粗[/b]
+[i]第一行斜体[/i]
+[color=red]第二行红色,内容很长很长很长很长很长很长很长很长很长很长[/color]
+[s]第三行删除线[/s]
+[u]第四行下划线[/u]
+第五行普通文本"
+texture = ExtResource("2_tewyd")
+
+[node name="Panel4" parent="." instance=ExtResource("1_tewyd")]
+offset_top = 208.0
+offset_bottom = 336.0
+scale = Vector2(0.8, 0.8)
+content = "[img=40x40]res://icon.svg[/img][b]加粗[/b]
+[i]第一行斜体[/i]
+[color=red]第二行红色,内容很长很长很长很长很长很长很长很长很长很长[/color]
+[s]第三行删除线[/s]
+[u]第四行下划线[/u]
+第五行普通文本"
+texture = ExtResource("2_tewyd")
+
+[node name="Panel5" parent="." instance=ExtResource("1_tewyd")]
+offset_left = 520.0
+offset_top = 208.0
+offset_right = 648.0
+offset_bottom = 336.0
+scale = Vector2(0.8, 0.8)
+content = "[img=40x40]res://icon.svg[/img][b]加粗[/b]
+[i]第一行斜体[/i]
+[color=red]第二行红色,内容很长很长很长很长很长很长很长很长很长很长[/color]
+[s]第三行删除线[/s]
+[u]第四行下划线[/u]
+第五行普通文本"
+texture = ExtResource("2_tewyd")
+
+[node name="Panel6" parent="." instance=ExtResource("1_tewyd")]
+offset_left = 1096.0
+offset_top = 208.0
+offset_right = 1224.0
+offset_bottom = 336.0
+scale = Vector2(0.8, 0.8)
+content = "[img=40x40]res://icon.svg[/img][b]加粗[/b]
+[i]第一行斜体[/i]
+[color=red]第二行红色,内容很长很长很长很长很长很长很长很长很长很长[/color]
+[s]第三行删除线[/s]
+[u]第四行下划线[/u]
+第五行普通文本"
+texture = ExtResource("2_tewyd")
+
+[node name="Panel7" parent="." instance=ExtResource("1_tewyd")]
+offset_top = 432.0
+offset_bottom = 560.0
+scale = Vector2(0.8, 0.8)
+content = "[img=40x40]res://icon.svg[/img][b]加粗[/b]
+[i]第一行斜体[/i]
+[color=red]第二行红色,内容很长很长很长很长很长很长很长很长很长很长[/color]
+[s]第三行删除线[/s]
+[u]第四行下划线[/u]
+第五行普通文本"
+texture = ExtResource("2_tewyd")
+
+[node name="Panel8" parent="." instance=ExtResource("1_tewyd")]
+offset_left = 520.0
+offset_top = 440.0
+offset_right = 648.0
+offset_bottom = 568.0
+scale = Vector2(0.8, 0.8)
+content = "[img=40x40]res://icon.svg[/img][b]加粗[/b]
+[i]第一行斜体[/i]
+[color=red]第二行红色,内容很长很长很长很长很长很长很长很长很长很长[/color]
+[s]第三行删除线[/s]
+[u]第四行下划线[/u]
+第五行普通文本"
+texture = ExtResource("2_tewyd")
+
+[node name="Panel9" parent="." instance=ExtResource("1_tewyd")]
+offset_left = 1104.0
+offset_top = 432.0
+offset_right = 1232.0
+offset_bottom = 560.0
+scale = Vector2(0.8, 0.8)
+content = "[img=40x40]res://icon.svg[/img][b]加粗[/b]
+[i]第一行斜体[/i]
+[color=red]第二行红色,内容很长很长很长很长很长很长很长很长很长很长[/color]
+[s]第三行删除线[/s]
+[u]第四行下划线[/u]
+第五行普通文本"
+texture = ExtResource("2_tewyd")
+
+[node name="back" parent="." instance=ExtResource("3_1jbr0")]
+offset_left = 552.0
+offset_top = 368.0
+offset_right = 592.0
+offset_bottom = 399.0

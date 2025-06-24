@@ -1,0 +1,23 @@
+[gd_scene load_steps=2 format=3 uid="uid://bot0tou2g5uh4"]
+
+[ext_resource type="Script" uid="uid://dxmdveqdsc21c" path="res://guide.gd" id="1_kce4j"]
+
+[node name="Node2D" type="Node2D"]
+script = ExtResource("1_kce4j")
+
+[node name="touch" type="Button" parent="."]
+offset_left = 232.0
+offset_top = 352.0
+offset_right = 358.0
+offset_bottom = 383.0
+text = "点击-适用于手机"
+
+[node name="mouse" type="Button" parent="."]
+offset_left = 824.0
+offset_top = 352.0
+offset_right = 938.0
+offset_bottom = 383.0
+text = "鼠标-适用于PC"
+
+[connection signal="pressed" from="touch" to="." method="_on_touch_pressed"]
+[connection signal="pressed" from="mouse" to="." method="_on_mouse_pressed"]

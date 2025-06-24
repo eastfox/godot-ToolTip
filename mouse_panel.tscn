@@ -1,0 +1,14 @@
+[gd_scene load_steps=2 format=3 uid="uid://b4kg4icj73e73"]
+
+[ext_resource type="Script" uid="uid://cdg48hcub1n4n" path="res://mouse_panel.gd" id="1_kmg6b"]
+
+[node name="MousePanel" type="PanelContainer"]
+offset_right = 128.0
+offset_bottom = 128.0
+script = ExtResource("1_kmg6b")
+
+[node name="TextureRect" type="TextureRect" parent="."]
+layout_mode = 2
+
+[connection signal="mouse_entered" from="." to="." method="_on_mouse_entered"]
+[connection signal="mouse_exited" from="." to="." method="_on_mouse_exited"]

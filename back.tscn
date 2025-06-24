@@ -1,0 +1,11 @@
+[gd_scene load_steps=2 format=3 uid="uid://bfhofdwiuh8k3"]
+
+[ext_resource type="Script" uid="uid://di1vtfvj786nr" path="res://back.gd" id="1_x3xug"]
+
+[node name="back" type="Button"]
+offset_right = 8.0
+offset_bottom = 8.0
+text = "后退"
+script = ExtResource("1_x3xug")
+
+[connection signal="pressed" from="." to="." method="_on_pressed"]

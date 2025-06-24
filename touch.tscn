@@ -1,0 +1,135 @@
+[gd_scene load_steps=4 format=3 uid="uid://buib01v6v5hv5"]
+
+[ext_resource type="PackedScene" uid="uid://dvxax58ehfnjt" path="res://touch_panel.tscn" id="1_ivlki"]
+[ext_resource type="Texture2D" uid="uid://bkrfmc3tb8b3e" path="res://icon.svg" id="2_n8fi0"]
+[ext_resource type="PackedScene" uid="uid://bfhofdwiuh8k3" path="res://back.tscn" id="2_qiy77"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="tap" parent="." instance=ExtResource("1_ivlki")]
+scale = Vector2(0.8, 0.8)
+content = "[img=40x40]res://icon.svg[/img][b]加粗[/b]
+[i]第一行斜体[/i]
+[color=red]第二行红色,内容很长很长很长很长很长很长很长很长很长很长[/color]
+[s]第三行删除线[/s]
+[u]第四行下划线[/u]
+第五行普通文本"
+texture = ExtResource("2_n8fi0")
+
+[node name="tap2" parent="." instance=ExtResource("1_ivlki")]
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = 552.0
+offset_right = 680.0
+grow_horizontal = 2
+scale = Vector2(0.8, 0.8)
+content = "[img=40x40]res://icon.svg[/img][b]加粗[/b]
+[i]第一行斜体[/i]
+[color=red]第二行红色,内容很长很长很长很长很长很长很长很长很长很长[/color]
+[s]第三行删除线[/s]
+[u]第四行下划线[/u]
+第五行普通文本"
+texture = ExtResource("2_n8fi0")
+
+[node name="tap3" parent="." instance=ExtResource("1_ivlki")]
+anchors_preset = 1
+anchor_left = 1.0
+anchor_right = 1.0
+offset_left = 1096.0
+offset_right = 1224.0
+grow_horizontal = 0
+scale = Vector2(0.8, 0.8)
+content = "[img=40x40]res://icon.svg[/img][b]加粗[/b]
+[i]第一行斜体[/i]
+[color=red]第二行红色,内容很长很长很长很长很长很长很长很长很长很长[/color]
+[s]第三行删除线[/s]
+[u]第四行下划线[/u]
+第五行普通文本"
+texture = ExtResource("2_n8fi0")
+
+[node name="tap4" parent="." instance=ExtResource("1_ivlki")]
+offset_top = 232.0
+offset_bottom = 360.0
+scale = Vector2(0.8, 0.8)
+content = "[img=40x40]res://icon.svg[/img][b]加粗[/b]
+[i]第一行斜体[/i]
+[color=red]第二行红色,内容很长很长很长很长很长很长很长很长很长很长[/color]
+[s]第三行删除线[/s]
+[u]第四行下划线[/u]
+第五行普通文本"
+texture = ExtResource("2_n8fi0")
+
+[node name="tap5" parent="." instance=ExtResource("1_ivlki")]
+offset_left = 552.0
+offset_top = 224.0
+offset_right = 680.0
+offset_bottom = 352.0
+scale = Vector2(0.8, 0.8)
+content = "[img=40x40]res://icon.svg[/img][b]加粗[/b]
+[i]第一行斜体[/i]
+[color=red]第二行红色,内容很长很长很长很长很长很长很长很长很长很长[/color]
+[s]第三行删除线[/s]
+[u]第四行下划线[/u]
+第五行普通文本"
+texture = ExtResource("2_n8fi0")
+
+[node name="tap6" parent="." instance=ExtResource("1_ivlki")]
+offset_left = 1096.0
+offset_top = 224.0
+offset_right = 1224.0
+offset_bottom = 352.0
+scale = Vector2(0.8, 0.8)
+content = "[img=40x40]res://icon.svg[/img][b]加粗[/b]
+[i]第一行斜体[/i]
+[color=red]第二行红色,内容很长很长很长很长很长很长很长很长很长很长[/color]
+[s]第三行删除线[/s]
+[u]第四行下划线[/u]
+第五行普通文本"
+texture = ExtResource("2_n8fi0")
+
+[node name="tap7" parent="." instance=ExtResource("1_ivlki")]
+offset_top = 440.0
+offset_bottom = 568.0
+scale = Vector2(0.8, 0.8)
+content = "[img=40x40]res://icon.svg[/img][b]加粗[/b]
+[i]第一行斜体[/i]
+[color=red]第二行红色,内容很长很长很长很长很长很长很长很长很长很长[/color]
+[s]第三行删除线[/s]
+[u]第四行下划线[/u]
+第五行普通文本"
+texture = ExtResource("2_n8fi0")
+
+[node name="tap8" parent="." instance=ExtResource("1_ivlki")]
+offset_left = 552.0
+offset_top = 440.0
+offset_right = 680.0
+offset_bottom = 568.0
+scale = Vector2(0.8, 0.8)
+content = "[img=40x40]res://icon.svg[/img][b]加粗[/b]
+[i]第一行斜体[/i]
+[color=red]第二行红色,内容很长很长很长很长很长很长很长很长很长很长[/color]
+[s]第三行删除线[/s]
+[u]第四行下划线[/u]
+第五行普通文本"
+texture = ExtResource("2_n8fi0")
+
+[node name="tap9" parent="." instance=ExtResource("1_ivlki")]
+offset_left = 1096.0
+offset_top = 440.0
+offset_right = 1224.0
+offset_bottom = 568.0
+scale = Vector2(0.8, 0.8)
+content = "[img=40x40]res://icon.svg[/img][b]加粗[/b]
+[i]第一行斜体[/i]
+[color=red]第二行红色,内容很长很长很长很长很长很长很长很长很长很长[/color]
+[s]第三行删除线[/s]
+[u]第四行下划线[/u]
+第五行普通文本"
+texture = ExtResource("2_n8fi0")
+
+[node name="back" parent="." instance=ExtResource("2_qiy77")]
+offset_left = 584.0
+offset_top = 368.0
+offset_right = 624.0
+offset_bottom = 399.0
